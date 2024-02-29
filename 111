@@ -1,21 +1,11 @@
-public class JPanelCat extends JPanel {
-
-    private LayoutManager2 layoutManager2;
-
-    public JPanelCat(LayoutManager2 layoutManager2){
-        super(layoutManager2);
-        this.layoutManager2 = layoutManager2;
-    }
-
-    public JPanelCat(){
-        super();
-    }
-
-    public static JPanelCat jump(Function<JPanelCat,JPanelCat> function, LayoutManager2 layoutManager2){
-        return function.apply(new JPanelCat(layoutManager2));
-    }
-
-    public static JPanelCat jump(Function<JPanelCat,JPanelCat> function){
-        return function.apply(new JPanelCat());
-    }
-}
+ static JFrame frame = new JFrame("test");
+    static JButton prevButton = new JButton("Prev");
+    static JButton nextButton = new JButton("Next");
+    static JButton firAxisButton = new JButton("Fix Axis");
+    static JButton freeAxisButton = new JButton("Free Axis");
+    static JButton downTopPrevButton = new JButton("Prev");
+    static JButton downTopNextButton = new JButton("Next");
+    static JButton downTopInvalidButton = new JButton("Invalid");
+    static JButton downDownPrevButton = new JButton("Prev");
+    static JButton downDownNextButton = new JButton("Next");
+    static JButton avgButton = new JButton("Avg Pulse");
