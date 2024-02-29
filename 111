@@ -1,11 +1,1 @@
- static JFrame frame = new JFrame("test");
-    static JButton prevButton = new JButton("Prev");
-    static JButton nextButton = new JButton("Next");
-    static JButton firAxisButton = new JButton("Fix Axis");
-    static JButton freeAxisButton = new JButton("Free Axis");
-    static JButton downTopPrevButton = new JButton("Prev");
-    static JButton downTopNextButton = new JButton("Next");
-    static JButton downTopInvalidButton = new JButton("Invalid");
-    static JButton downDownPrevButton = new JButton("Prev");
-    static JButton downDownNextButton = new JButton("Next");
-    static JButton avgButton = new JButton("Avg Pulse");
+ resizeButton(right,prevButton,nextButton,firAxisButton,freeAxisButton,downTopPrevButton,downTopNextButton,downTopInvalidButton,downDownPrevButton,downDownNextButton,avgButton);
